@@ -4,8 +4,6 @@
 
 <p align="center">
   <a href="#project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#structure">Estrutura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#details">Detalhamento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#extras">Extras</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#usage">Utilização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -20,19 +18,9 @@
 
 Aplicação em Node.js onde o usuário cadastra um filme, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele.
 
-<h2 id="structure">📌 Estrutura</h2>
 
-Abaixo, temos o diagrama utilizado como base para a criação do banco de dados:
 
-!["Estrutura do banco de dados"](./.github/database-structure.png)
 
-<h2 id="details">📋 Detalhamento</h2>
-
-Explicando cada tabela e seus campos:
-
-<p align="center">
-  <img alt="Explicação do banco de dados" src="./.github/database-explanation.png">
-</p>
 
 **Valores inteiros que podem variar de 1 até o 5.* <br>
 ***Exemplos: ação, comedia, terror, medo...etc.*
@@ -59,7 +47,7 @@ Alguns detalhes adicionados ao desafio:
 Para instalar a aplicação em sua máquina localmente, clone o projeto, acesse a pasta, instale as dependências e inicie o servidor.
 
 ```
-$ cd rocket-movies-api
+$ cd rocket-movie-be
 $ npm install
 $ npm run dev
 ```
