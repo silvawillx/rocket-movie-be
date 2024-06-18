@@ -47,7 +47,7 @@ Alguns detalhes adicionados ao desafio:
 Para instalar a aplicação em sua máquina localmente, clone o projeto, acesse a pasta, instale as dependências e inicie o servidor.
 
 ```
-$ cd rocket-movies-be
+$ cd rocket-movie-be
 $ npm install
 $ npm run dev
 ```
